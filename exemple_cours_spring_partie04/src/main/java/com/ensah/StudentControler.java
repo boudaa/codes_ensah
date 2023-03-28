@@ -51,7 +51,7 @@ public class StudentControler {
 	@RequestMapping("/addStudent")
 	public String process(@ModelAttribute("student_model") Student pStudent) {
 
-		//Afficher l'objet de type student
+		//Afficher l'objet de type student sur la console
 		System.out.println(pStudent);
 		
 		return "hello"; // ==> preffix + hello + .jsp
