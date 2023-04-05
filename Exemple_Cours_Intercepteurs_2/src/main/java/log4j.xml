@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
 <log4j:configuration>
-
-
-	<!--Journalisation dans un fichier -->
-
-<!-- 	<appender name="file" class="org.apache.log4j.RollingFileAppender"> -->
-<!-- 		<param name="maxFileSize" value="10000KB" /> -->
-<!-- 		<param name="maxBackupIndex" value="1" /> -->
-<!-- 		<param name="File" value="d:\\api_rest.log" /> -->
-<!-- 		<param name="threshold" value="debug" /> -->
-<!-- 		<layout class="org.apache.log4j.PatternLayout"> -->
-<!-- 			<param name="ConversionPattern" value="%d{ISO8601} %5p [%c{1}] %m%n" /> -->
-<!-- 		</layout> -->
-<!-- 	</appender> -->
 
 
 
@@ -26,8 +12,7 @@
 	</appender>
 
 	<root>
-		<priority value="info"></priority>
-<!-- 		<appender-ref ref="file" /> -->
+		<priority value="debug"></priority>
 		<appender-ref ref="stdout" />
 	</root>
 </log4j:configuration>

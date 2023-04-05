@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import org.springframework.web.bind.annotation.RequestParam;
 
+//Exemple d'utilisation de l'annotation  @RequestParam
 @Controller
 public class RequestParamController {
 	@GetMapping(value = "/deletePerson")
